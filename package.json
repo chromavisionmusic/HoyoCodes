@@ -4,7 +4,7 @@
   "description": "A Discord bot that automatically sends active HoYoverse redeem codes to your server, so your community never misses a new code.",
   "license": "MIT",
   "author": "Chroma",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
