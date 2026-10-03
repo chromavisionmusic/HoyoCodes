@@ -4,13 +4,16 @@
   "description": "A Discord bot that automatically sends active HoYoverse redeem codes to your server, so your community never misses a new code.",
   "license": "MIT",
   "author": "Chroma",
-  "module": "src/index.ts",
-  "type": "module",
   "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^7"
+  "type": "module",
+  "workspaces": ["src/bot", "src/web"],
+  "scripts": {
+    "dev": "bun run --filter bot --filter web dev",
+    "bot:dev": "bun run --filter bot dev",
+    "bot:build": "bun run --filter bot build",
+    "web:dev": "bun run --filter web dev",
+    "web:build": "bun run --filter web build",
+    "web:start": "bun run --filter web start",
+    "typecheck": "bun run --filter bot --filter web typecheck"
   }
 }

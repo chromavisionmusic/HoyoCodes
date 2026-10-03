@@ -5,6 +5,10 @@ node_modules
 out
 dist
 *.tgz
+/bin/
+
+# next.js
+.next
 
 # code coverage
 coverage
