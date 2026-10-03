@@ -13,5 +13,8 @@
   "devDependencies": {
     "@types/bun": "latest",
     "typescript": "latest"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0"
   }
 }
