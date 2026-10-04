@@ -9,6 +9,13 @@ export interface BotConfig {
 	colors: {
 		primary: number;
 	};
+	codes: {
+		apiUrl: string;
+		pollIntervalMs: number;
+		requestTimeoutMs: number;
+		deliveryConcurrency: number;
+		webhookName: string;
+	};
 	links: {
 		website: string | null;
 		github: string;
@@ -18,5 +25,10 @@ export interface BotConfig {
 			url: string;
 			permissions: number;
 		};
-	};
+  };
+  logo: {
+    genshin: string;
+    hsr: string;
+    zzz: string;
+  };
 }

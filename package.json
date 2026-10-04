@@ -12,6 +12,7 @@
     "bot:dev": "bun run --filter bot dev",
     "bot:build": "bun run --filter bot build",
     "bot:deploy": "bun run --filter bot deploy",
+    "bot:test": "bun run --filter bot test",
     "web:dev": "bun run --filter web dev",
     "web:build": "bun run --filter web build",
     "web:start": "bun run --filter web start",

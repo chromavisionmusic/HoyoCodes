@@ -12,6 +12,7 @@ const env = {
 	botToken: requireEnv('BOT_TOKEN'),
 	botId: requireEnv('BOT_ID'),
 	devGuildId: process.env.DEV_GUILD_ID,
+	databasePath: process.env.DATABASE_PATH ?? './data/hoyocodes.sqlite',
 };
 
 export default env;

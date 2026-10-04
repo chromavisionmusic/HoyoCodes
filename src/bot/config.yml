@@ -6,6 +6,12 @@ developers:
     uid: 1063860912173359114
 colors:
   primary: 0x5865f2
+codes:
+  apiUrl: https://hoyo-codes.seria.moe/codes
+  pollIntervalMs: 300000
+  requestTimeoutMs: 10000
+  deliveryConcurrency: 4
+  webhookName: HoyoCodes
 links:
   website:
   github: https://github.com/chromavisionmusic/HoyoCodes
@@ -14,3 +20,7 @@ links:
   invite:
     url: https://discord.com/oauth2/authorize?client_id=1556012182872006749&permissions=536873984&integration_type=0&scope=bot+applications.commands
     permissions: 536873984
+logo:
+  genshin: https://static.wikia.nocookie.net/logopedia/images/9/91/Genshin_Impact_Icon.png/revision/latest?cb=20241230075438
+  hsr: https://upload-os-bbs.hoyolab.com/upload/2025/08/15/63353547/e067445d62d978d7c9792d9043433365_2554893110477649291.webp
+  zzz: https://static.wikia.nocookie.net/logopedia/images/d/df/Zenless_Zone_Zero_%28Icon_without_any_logo%29.png/revision/latest?cb=20250411003400

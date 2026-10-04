@@ -23,6 +23,8 @@ bun run bot:deploy  # register slash commands with Discord
 
 Cross-compile for other platforms with the `build:linux`, `build:macos`, and `build:windows` scripts in `src/bot/package.json`.
 
+The bot stores guild subscriptions and delivered-code history in SQLite. Set `DATABASE_PATH` to a writable persistent location; it defaults to `./data/hoyocodes.sqlite` relative to the process working directory. Protect this file and its backups because it contains Discord webhook tokens.
+
 ### Adding a command
 
 1. Create `src/bot/commands/<name>.ts` (copy `ping.ts` as a template).

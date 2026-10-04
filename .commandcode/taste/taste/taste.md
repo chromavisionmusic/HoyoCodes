@@ -6,3 +6,4 @@
 - Prefers full-stack Next.js for website/web-app deliverables. Confidence: 0.6
 - Builds Discord bot features with discord.js in TypeScript; expects slash commands to reply with rich embeds (bot avatar thumbnail, inline stat fields) and link buttons (website, support server, invite). Confidence: 0.7
 - States feature requests tersely as a short bulleted requirement list, expecting implementation without further discussion. Confidence: 0.4
+- Prefers Discord setup/configuration commands to open an interactive embed or control panel rather than rely on multiple slash-command subcommands/options, with independent channel and role routing where categories differ. Confidence: 0.9
