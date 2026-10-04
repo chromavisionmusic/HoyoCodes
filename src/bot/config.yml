@@ -1,2 +1,4 @@
 name: HoyoCodes
 version: 0.1.0
+colors:
+  primary: 0x5865f2
