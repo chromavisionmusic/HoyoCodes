@@ -7,6 +7,7 @@ developers:
 colors:
   primary: 0x5865f2
 links:
+  website:
   github: https://github.com/chromavisionmusic/HoyoCodes
   issue: https://github.com/chromavisionmusic/HoyoCodes/issues
   discord: https://discord.gg/moonmaiden
