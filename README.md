@@ -18,9 +18,18 @@ bun install
 ```bash
 bun run bot:dev     # run in watch mode
 bun run bot:build   # compile to bin/bot (bin/bot.exe on Windows)
+bun run bot:deploy  # register slash commands with Discord
 ```
 
 Cross-compile for other platforms with the `build:linux`, `build:macos`, and `build:windows` scripts in `src/bot/package.json`.
+
+### Adding a command
+
+1. Create `src/bot/commands/<name>.ts` (copy `ping.ts` as a template).
+2. Add it to the registry in `src/bot/commands/index.ts`.
+3. Run `bun run bot:deploy` to register it with Discord — set `DEV_GUILD_ID` in `src/bot/.env` to deploy to a single dev server for instant updates.
+
+Commands are imported statically so they get bundled into the compiled binary.
 
 ## Website
 
