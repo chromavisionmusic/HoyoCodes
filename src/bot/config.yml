@@ -1,4 +1,15 @@
 name: HoyoCodes
 version: 0.1.0
+description: HoyoCodes is a Discord bot that sends latest and active Hoyoverse codes to your server, so that you never miss any rewards.
+developers:
+  - name: chromavisionmusic
+    uid: 1063860912173359114
 colors:
   primary: 0x5865f2
+links:
+  github: https://github.com/chromavisionmusic/HoyoCodes
+  issue: https://github.com/chromavisionmusic/HoyoCodes/issues
+  discord: https://discord.gg/moonmaiden
+  invite:
+    url: https://discord.com/oauth2/authorize?client_id=1556012182872006749&permissions=536873984&integration_type=0&scope=bot+applications.commands
+    permissions: 536873984
