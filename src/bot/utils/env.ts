@@ -1,6 +1,17 @@
-const env = {
-  botToken: process.env.BOT_TOKEN,
-  botId: process.env.BOT_ID,
+function requireEnv(name: string): string {
+	const value = process.env[name];
+
+	if (!value) {
+		throw new Error(`Missing required environment variable: ${name}`);
+	}
+
+	return value;
 }
 
-export default env
+const env = {
+	botToken: requireEnv('BOT_TOKEN'),
+	botId: requireEnv('BOT_ID'),
+	devGuildId: process.env.DEV_GUILD_ID,
+};
+
+export default env;
